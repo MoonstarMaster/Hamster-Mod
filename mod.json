@@ -1,0 +1,22 @@
+{
+	"geode": "4.0.0-beta.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "moonstarmaster.hamstermod",
+	"name": "Hamster Mod",
+	"version": "v1.1.0",
+	"developer": "MoonstarMaster",
+	"description": "",
+	"resources": {
+		"sprites": [
+			"resources/*.png"
+		],
+		"files": [
+			"resources/*.ogg"
+		]
+	}
+}
