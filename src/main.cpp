@@ -54,9 +54,10 @@ class $modify(MyMenuLayer, MenuLayer) {
 		 * See this page for more info about buttons
 		 * https://docs.geode-sdk.org/tutorials/buttons
 		*/
-		auto myButton = CCMenuItemSpriteExtra::create(
-			CCSprite::create("hamster-button.png"_spr),
-			this,
+		auto buttonSprite = CCSprite::create("hamster-button.png"_spr);
+                buttonSprite->setScale(.550);
+              auto myButton = CCMenuItemSpriteExtra::create(
+	       buttonSprite,	   this,
 
 			/**
 			 * Here we use the name we set earlier for our modify class.
